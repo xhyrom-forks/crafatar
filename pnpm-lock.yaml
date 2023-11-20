@@ -11,6 +11,9 @@ dependencies:
   crc:
     specifier: ^3.8.0
     version: 3.8.0
+  dotenv:
+    specifier: ^16.3.1
+    version: 16.3.1
   ejs:
     specifier: ^3.1.5
     version: 3.1.9
@@ -828,6 +831,11 @@ packages:
 
   /dom-walk@0.1.2:
     resolution: {integrity: sha512-6QvTW9mrGeIegrFXdtQi9pk7O/nSK6lSdXW2eqUspN5LWD7UTji2Fqw5V2YLjBpHEoU9Xl/eUWNpDeZvoyOv2w==}
+    dev: false
+
+  /dotenv@16.3.1:
+    resolution: {integrity: sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==}
+    engines: {node: '>=12'}
     dev: false
 
   /ecc-jsbn@0.1.2:
